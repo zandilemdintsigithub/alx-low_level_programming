@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - prints alpha 10 times
+ * print_alphabet_x10 - prints alpha 10 time
  */
-void print_alphabet_x10(void)
+void print_alphabet_10(void)
 {
 	int ten;
 	char la;
@@ -14,5 +14,4 @@ void print_alphabet_x10(void)
 			_putchar(la);
 		_putchar('\n');
 	}
-
 }
