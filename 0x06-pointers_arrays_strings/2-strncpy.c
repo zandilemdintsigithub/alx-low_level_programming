@@ -1,4 +1,6 @@
 #include "main.h"
+
+
 /**
  * _strncpy - copy string number
  * @dest: store string of n byte into dest
