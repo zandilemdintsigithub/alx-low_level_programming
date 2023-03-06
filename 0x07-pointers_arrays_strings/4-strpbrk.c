@@ -7,6 +7,7 @@
  * @accept: input
  * Return: Always 0
  */
+
 char *_strbrk(char *s, char *accept)
 {
 	int i, n;
