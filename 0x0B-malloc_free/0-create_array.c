@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * create - create array of chars
+ * create_array - create array of chars
  * @size: size of array
- * @c: char in array
+ * @c: char to sign
+ * Description: create array of size and assign char c
  * Return: NULL
  */
-
 
 char *create_array(unsigned int size, char c)
 {
