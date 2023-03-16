@@ -3,9 +3,9 @@
 
 /**
  * string_ncocat - allocates memory of array
- * @s1:
- * @s2:
- * @n:
+ * @s1: input
+ * @s2: input
+ * @n: number of array
  * Return: 0
  */
 char *string_ncocat(char *s1, char *s2, unsigned int n)
@@ -26,7 +26,7 @@ char *string_ncocat(char *s1, char *s2, unsigned int n)
 		k++;
 
 	if (n >= k)
-		l = i + k
+		l = i + k;
 	else
 		l = i + n;
 
@@ -34,11 +34,12 @@ char *string_ncocat(char *s1, char *s2, unsigned int n)
 	if (str == NULL)
 		return (NULL);
 
-	k = 0
+	k = 0;
 	while (j < l)
 	{
 		if (j <= i)
 			str[j] = s1[j];
+
 		if (j >= i)
 		{
 			str[j] = s2[k];
